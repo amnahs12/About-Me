@@ -5,7 +5,7 @@ body{ color: #DDF2FD;}
 /* Hero section */
 .hero {
 background: url("https://i.pinimg.com/1200x/4b/76/4a/4b764a9141a3a4bcc4eb0063ff3b548a.jpg") no-repeat center center/cover;
-  height: 170vh;
+  height: 170dvh;
   position: relative;
   display: flex;
   align-items: center;   /* vertical center */
@@ -125,3 +125,4 @@ color: #BCCCDC}
   box-shadow: 0 8px 30px rgba(0,0,0,0.6);
   border-radius: 10px;
 }
+
