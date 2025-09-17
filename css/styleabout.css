@@ -9,7 +9,8 @@ background: url("https://i.pinimg.com/1200x/4b/76/4a/4b764a9141a3a4bcc4eb0063ff3
   position: relative;
 }
 .me{font-family: 'BANNER', sans-serif;                                               
-font-size: 2em;
+font-weight: bold;
+  font-size: 2.5rem;/* adjust size */
 color: #BCCCDC;}
 .lead{font-family: 'PP Pangaia', sans-serif;
 font-size: 1em;
@@ -17,20 +18,13 @@ color: #BCCCDC}
 .lead2{font-family: 'PP Pangaia', sans-serif;
 font-size: 1em;
 color: #BCCCDC}
-.star1{display: inline;
-    position: absolute;
-  top: autopx ;
-  bottom:20.625em ;
-   left: 64.375em;
-   right:18.75em ;
+.stars-heading img {
+  display: inline-block;
 }
-.star2{display: inline;
-    position: absolute;
-   top:auto ;
-  bottom: 20.625em;
-   right: 26.25em;
-   left: 48.125}
 
+.stars-heading h1 {
+  margin: 0 15px; /* spacing between stars & text */
+}
 /* Overlay */
 .hero::before {
   content: "";
@@ -116,5 +110,6 @@ color: #BCCCDC}
   transform: scale(1.05);
 
 }
+
 
 
