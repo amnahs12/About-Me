@@ -5,7 +5,7 @@ body{ color: #DDF2FD;}
 /* Hero section */
 .hero {
 background: url("https://i.pinimg.com/1200x/4b/76/4a/4b764a9141a3a4bcc4eb0063ff3b548a.jpg") no-repeat center center/cover;
-  height: 100vh;
+  height: 130vh;
   position: relative;
 }
 .me{font-family: 'BANNER', sans-serif;                                               
@@ -20,16 +20,16 @@ color: #BCCCDC}
 .star1{
     position: absolute;
   top: autopx ;
-  bottom:330px ;
-   left: 1030px;
-   right:300px ;
+  bottom:20.625em ;
+   left: 64.375em;
+   right:18.75em ;
 }
 .star2{
     position: absolute;
    top:auto ;
-  bottom: 330px;
-   right: 420px;
-   left: 770px}
+  bottom: 20.625em;
+   right: 26.25em;
+   left: 48.125}
 
 /* Overlay */
 .hero::before {
@@ -114,4 +114,5 @@ color: #BCCCDC}
 .nav-link:hover {
   color: #DDF2FD !important;
   transform: scale(1.05);
+
 }
